@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content-box{
+    background-color: black;
+    width: 30em;
+    height: 15em;
+    text-align: center;
+    color: white;
+    box-shadow:0px 0px 30px black;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.openbtn{
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    padding: .5rem;
+    width: 10rem;
+    cursor: pointer;
+    margin-top: 5rem;
+    transition: all 1s ease;
+}    
+.openbtn:hover{
+    background-color: antiquewhite;
+    color: black;
+   
+}
+
+
+
+.ekle{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.openedd{
+   display: block;
+}
+
+#content{
+    margin-top: 5rem;
+}
+
+#title{
+    font-size: 2rem;
+    font-family: cursive;
+
+}
+
+#refresh {
+    margin-top: 2rem;
+    padding: .3rem;
+    width: 10rem;
+    font-size: 2rem;
+    border:1px white dotted;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: 400ms;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+#closebtn{
+    margin: .7rem;
+}
+#refresh:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    #refresh {
+      position: absolute;
+      left: 35%;
+    }
+}
