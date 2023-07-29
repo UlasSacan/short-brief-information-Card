@@ -50,24 +50,3 @@ closeBtn.addEventListener("click", function () {
     closed.classList.add("hidden");
     opened.classList.add("openedd");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// "Çifte standarttan nefret ederim. Krematoryumda bir ceset yak, 'saygılı bir arkadaşsın'. Evde yapın ve 'kanıtları yok ediyorsunuz'.",
-// "Kürtaj konusunda nerede durduğumu bilmiyorum. Bebekleri öldürmeyi seviyorum ama kadınlara seçme şansı vermeyi sevmiyorum.",
-// "Tatlım, bakkala git ve biraz yumurta al. 'TAMAM.' 'Oh ve hazır oradayken biraz süt al.' 'Asla geri dönmedi.",
-// "Bill Gates'in Windows her çöktüğünde bir kuruş parası olsaydı ... Oh, bekle, öyle.",
-// "Breakdans yapabilen bir balığım var! Sadece 20 saniyeliğine ve sadece bir kez.",
-// "HTML'yi HTML5'ten nasıl anlarsınız? - Internet Explorer'da deneyin - İşe yaradı mı? - HAYIR? - Bu HTML5.",
-// "// Bu satır aslında bir şey yapmıyor ama sildiğimde kod çalışmayı durduruyor.",
